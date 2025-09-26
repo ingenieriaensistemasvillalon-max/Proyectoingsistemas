@@ -1,6 +1,6 @@
-// Declaramos un arreglo (array) con varias frases motivacionales
-const citas = [
-  "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+// Declaramos un arreglo (array) con varias canciones de piano
+const canciones = [
+  "Can't Help Falling in Love.",
   "Nunca es tarde para aprender algo nuevo.",
   "El futuro pertenece a quienes creen en la belleza de sus sueños.",
   "La programación no se aprende en un día, se construye con paciencia.",
@@ -21,3 +21,4 @@ function generarCita() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = citas[indice];
 }
+
