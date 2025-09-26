@@ -1,5 +1,5 @@
 // Declaramos un arreglo (array) con varias canciones de piano
-const Canciones de piano = [
+const Hora de saber musica = [
   "Can't Help Falling in Love.",
   "Nunca es tarde para aprender algo nuevo.",
   "El futuro pertenece a quienes creen en la belleza de sus sueños.",
@@ -21,6 +21,7 @@ function generarCancion() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = Canciones de piano[indice];
 }
+
 
 
 
