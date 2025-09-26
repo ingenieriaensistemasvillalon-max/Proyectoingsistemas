@@ -1,5 +1,5 @@
 // Declaramos un arreglo (array) con varias canciones de piano
-const canciones = [
+const Canciones de piano = [
   "Can't Help Falling in Love.",
   "Nunca es tarde para aprender algo nuevo.",
   "El futuro pertenece a quienes creen en la belleza de sus sueños.",
@@ -21,4 +21,5 @@ function generarCita() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = citas[indice];
 }
+
 
