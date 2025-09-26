@@ -9,8 +9,8 @@ const Canciones de piano = [
   "El conocimiento es poder, pero la práctica lo transforma en sabiduría."
 ];
 
-// Definimos la función que mostrará una cita aleatoria
-function generarCita() {
+// Definimos la función que mostrará una cancion aleatoria
+function generarCancion() {
   // Generamos un número aleatorio entre 0 y la cantidad de frases (citas.length)
   // Math.random() → número entre 0 y 1
   // * citas.length → escala ese número al rango de frases disponibles
@@ -19,7 +19,8 @@ function generarCita() {
 
   // Buscamos en el documento el elemento con id="quote"
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
-  document.getElementById("quote").innerText = citas[indice];
+  document.getElementById("quote").innerText = Canciones de piano[indice];
 }
+
 
 
